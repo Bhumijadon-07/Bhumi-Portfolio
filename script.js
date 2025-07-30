@@ -27,7 +27,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 function updateThemeIcon(theme) {
-  if (theme === 'dark') {
+  if (theme === 'light') {
     themeIcon.className = 'fas fa-sun';
   } else {
     themeIcon.className = 'fas fa-moon';
